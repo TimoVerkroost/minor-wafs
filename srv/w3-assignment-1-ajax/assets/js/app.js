@@ -20,12 +20,6 @@
     var request = {
         // Request to country API - Get all countries at once so we need 1 AJAX cal
         countries: function () {
-
-            if (typeof(Storage) === "undefined") {
-                // Code for localStorage/sessionStorage.
-            } else {
-                // Sorry! No Web Storage support..
-            }
             // Check if there is localStorage, and if not run AJAX call
             if (localStorage.getItem("countries") === null) {
                 // When there is no localStorage
