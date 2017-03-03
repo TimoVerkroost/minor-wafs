@@ -53,6 +53,7 @@ var filterRegion = (function () {
             // Render HTML
             Transparency.render(document.getElementById("filterButtons"), regionOutput, filterButtons);
         },
+        // Active filter
         active: function (e) {
             if (e.target && e.target.matches(".regionRadio")) {
                 // Filter on region
