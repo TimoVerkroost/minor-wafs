@@ -171,7 +171,7 @@ main section[id*="country"] {
     #countriesOverview .country {
         flex-basis: 33.33%;
         max-width: 33.33%;
-        padding: 2em .5em;
+        padding: 1em .5em;
     }
 }
 
