@@ -224,6 +224,8 @@
                     regionOutput.push(regions[i].region);
                 }
             }
+            // Sort region names alphabetically
+            regionOutput.sort();
             // Render regions for filter
             var filterButtons = {
                     region: {
